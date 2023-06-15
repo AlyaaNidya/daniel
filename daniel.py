@@ -34,7 +34,7 @@ elif sidebar_type == "Correlation":
     st.subheader("Correlation")
 
     value_correlation = np.corrcoef(X, y)[0][1]
-    st.dataframe(pd.DataFrame(data2.corr()))
+    st.dataframe(data2.corr())
     st.write(
         "Coefficient of Correlation between X variable and Y variable is",
         value_correlation,
