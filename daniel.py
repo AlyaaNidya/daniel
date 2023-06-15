@@ -4,8 +4,8 @@ import numpy as np
 from scipy import stats
 from openpyxl import load_workbook
 
-data1 = pd.read_excel(r"C:\Users\ASUS\OneDrive\Documents\komputasi\daniel\Data_excel.xlsx")
-data2 = pd.read_csv(r"C:\Users\ASUS\OneDrive\Documents\komputasi\daniel\Data_csv.csv")
+data1 = pd.read_excel("Data_excel.xlsx")
+data2 = pd.read_csv("Data_csv.csv")
 X = data2["X"]
 y = data2["Y"]
 
